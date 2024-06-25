@@ -1,3 +1,4 @@
+
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const imagemin = require('gulp-imagemin');
@@ -28,4 +29,3 @@ exports.watch = function(){
     gulp.watch('./src/styles/*.scss', gulp.parallel(styles))
     gulp.watch('./src/scripts/*.js', gulp.parallel(scripts))
 }
-
